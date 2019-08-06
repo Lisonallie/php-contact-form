@@ -1,8 +1,17 @@
 body {
     margin: auto;
-    margin-top: 70px;
+    margin-top: 7.2em;
     max-width: 1200px;
-    width: 17em;
+    width: 20.8em;
+    background-image: url(img/mosaicbg.jpg);
+    overflow: hidden;
+}
+
+.formbg {
+    background-color: white;
+    border-radius: 8px;
+    width: 275px;
+    padding: 20px;
 }
 
 label {
@@ -13,4 +22,7 @@ input {
     padding: 7px;
     font-family: 'Cinzel', serif;
     font-size: 20px;
+}
+#submit:hover {
+    cursor: pointer;
 }
