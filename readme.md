@@ -1,9 +1,9 @@
 ### PHP Contact Form
 
-#### About the Project
+#### About the Project 🔎🔎🔎
 I was assigned a project to create a contact form using PHP. The contact form had no importance placed upon CSS and more upon functionality. It was important that the form worked and the learner discovered how to do it all.
 
-#### Process of the Project
+#### Process of the Project 📐📐📐
 The making of the PHP contact form required many steps with a lot of debugging along the way:
 - I first started by making the form in HTML using semantic HTML. 
 - I then connected my form identities with the `POST` method and included the `POST` action in variables in PHP. 
@@ -23,7 +23,7 @@ The making of the PHP contact form required many steps with a lot of debugging a
 - I had a wonderful header that refreshes every 6 seconds to the `index.html` file, giving the user enough time to read error messages if they appear.
 ![alt text](http://giphygifs.s3.amazonaws.com/media/10UtqJNULHPfxe/giphy.gif)
 
-#### A Learning Experience
+#### A Learning Experience 👷👷👷
 I came in the next morning and someone made an offhand comment about not being stupid enough to put your own information into a file and commit it and push it to github. I thought "Oh ****!" because I remember I had done it for one of the files the day before and had completely forgot about it. 
 ![alt text](https://66.media.tumblr.com/99b0cce28ce28ee9d0a9feec6c1ffcbb/tumblr_msdd8qZAet1sgl0ajo1_500.gif)
 So I set about
@@ -38,7 +38,7 @@ I had 35 commits and 15 after the problem commit.
 Although it was a painful process to lose all of my hard-working commits, every experience of PHP is a learning process. I am happy to know now one of the ways I can hide sensitive information from prying eyes.
 ![alt text](https://media3.giphy.com/media/3og0INdmjMr8BIiIlG/giphy.gif)
 
-#### Visual Representation
+#### Visual Representation 🖼️🖼️🖼️
 After the security debacle, I finally had a working code where my secrets were hidden and I could send emails using my PHP contact form to an SMTP mail server. I ended up not focusing on the CSS for this project because I am very much focusing on how to make things work rather than how they look. If I have more time for the project I will add some visual enhancement to this project, but for now this is how it looks:
 ![alt text](/img/phpcontactfront.png)
 
