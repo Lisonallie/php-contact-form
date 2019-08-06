@@ -45,7 +45,7 @@ Although it was a painful process to lose all of my hard-working commits, every 
 #### Visual Representation 🖼️🖼️🖼️
 After the security debacle, I finally had a working code where my secrets were hidden and I could send emails using my PHP contact form to an SMTP mail server. I ended up not focusing on the CSS for this project because I am very much focusing on how to make things work rather than how they look. If I have more time for the project I will add some visual enhancement to this project, but for now this is how it looks:
 
-![alt text](/img/phpcontactfront.png)
+![alt text](/img/phpcontactfront.png) 
 
 Here is what the final project looks like when all the errors are triggered:
 
