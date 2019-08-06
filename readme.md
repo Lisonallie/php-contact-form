@@ -43,11 +43,13 @@ Although it was a painful process to lose all of my hard-working commits, every 
 ![alt text](https://media3.giphy.com/media/3og0INdmjMr8BIiIlG/giphy.gif)
 
 #### Visual Representation 🖼️🖼️🖼️
-After the security debacle, I finally had a working code where my secrets were hidden and I could send emails using my PHP contact form to an SMTP mail server. I ended up not focusing on the CSS for this project because I am very much focusing on how to make things work rather than how they look. If I have more time for the project I will add some visual enhancement to this project, but for now this is how it looks:
+After the security debacle, I finally had a working code where my secrets were hidden and I could send emails using my PHP contact form to an SMTP mail server. <strike>I ended up not focusing on the CSS for this project because I am very much focusing on how to make things work rather than how they look. If I have more time for the project I will add some visual enhancement to this project, but for now this is how it looks:</strike>
+
+I had some more time after all to work on the CSS so I added a nice generic background and edited the fonts and positioning of the elements. Here's how it looks:
 
 ![alt text](/img/phpcontactfront.png)
 
-Here is what the final project looks like when all the errors are triggered:
+Here is what the screen looks like when all the errors are triggered:
 
 ![alt text](/img/fullerrorpage.png)
 
