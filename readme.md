@@ -20,8 +20,9 @@ The making of the PHP contact form required many steps with a lot of debugging a
 - I stumbled across [mailtrap.io](https://mailtrap.io/) and a tutorial on how to set up an SMTP server using that. I liked this option more than using Gmail's SMTP server because I didn't want to compromise my personal credentials.
     - Little did I know I had already compromised my info trying to set up PHPMailer with a SMTP server (a problem I ran into later).
 - I connected the mail server and successfully sent myself emails in mailtrap while debugging along the way and finding out how to implement the mail server into my own code.
+- I had a wonderful header that refreshes every 6 seconds to the `index.html` file, giving the user enough time to read error messages if they appear.
 
-#### And then...
+#### A Learning Experience
 I came in the next morning and someone made an offhand comment about not being stupid enough to put your own information into a file and commit it and push it to github. I thought "Oh ****!" because I remember I had done it for one of the files the day before and had completely forgot about it. So I set about
 1. Finding the erring commit.
 2. Figuring out how to delete 1 commit from a history.
@@ -29,4 +30,10 @@ I had 35 commits and 15 after the problem commit.
 3. I looked for a good hour and a half for what I should do, and I asked the people around me and they said the only solution was to delete the repository (because it was compromised).
     1. I said: "I don't want to lose all of my work.". So I tried rebasing and cherry picking and it didn't work so I was disappointed I would lose all of my work but I couldn't have my personal information just sitting there.
     2. I had to delete the repository.
-    3. 4 times... Until I figured out how to 
+    3. 4 times... Until I figured out how to finally conceal my private information with a separate php file and a `.gitignore` file.
+
+Although it was a painful process to lose all of my hard-working commits, every experience of PHP is a learning process. I am happy to know now one of the ways I can hide sensitive information from prying eyes.
+
+#### Visual Representation
+After the security debacle, I finally had a working code where my secrets were hidden and I could send emails using my PHP contact form to an SMTP mail server. I ended up not focusing on the CSS for this project because I am very much focusing on how to make things work rather than how they look. If I have more time for the project I will add some visual enhancement to this project, but for now this is how it looks:
+[alt text]()
