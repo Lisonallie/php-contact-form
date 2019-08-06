@@ -1,15 +1,13 @@
-
-
 <?php
-//---------------------------HOW TO DISPLAY ALL ERRORS-------------------------------------
+////---------------------------HOW TO DISPLAY ALL ERRORS-------------------------------------
 // ini_set('display_errors', 1);
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
 
 //refresh every 6 seconds to index.html
-header ("refresh:6; url=index.html");
-$config = require "config.php";
-$login = $config['login'];
+// header ("refresh:6; url=index.html");
+
+include ("config.php");
 
 //implement PHPMailer-----------------------------------------------------------------------
 use PHPMailer\PHPMailer\PHPMailer;
@@ -48,8 +46,8 @@ $mail = new PHPMailer();
 $mail->isSMTP();
 $mail->Host = 'smtp.mailtrap.io';
 $mail->SMTPAuth = true;
-$mail->Username = $login['user'];
-$mail->Password = $login['pass'];
+$mail->Username = $user;
+$mail->Password = $pass;
 $mail->SMTPSecure = 'tls';
 $mail->Port = 25;
 
@@ -67,7 +65,7 @@ if (!preg_match("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")) {
         echo nl2br ("Message could not be sent." . "\n<br");
         echo nl2br ("MAILER ERROR: " . $mail->ErrorInfo . "\n<br");
     } else {
-    echo 'Your message has been sent. Thank you!';
+        echo 'Your message has been sent. Thank you!';
     }
 }
 
@@ -76,5 +74,6 @@ if (count($errors) > 0) {
     print_r($errors);
     exit;
 }
+
 
 ?>
