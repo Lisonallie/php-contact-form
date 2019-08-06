@@ -5,7 +5,7 @@
 // error_reporting(E_ALL);
 
 //refresh every 6 seconds to index.html
-// header ("refresh:6; url=index.html");
+header ("refresh:6; url=index.html");
 
 include ("config.php");
 
