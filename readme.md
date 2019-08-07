@@ -49,7 +49,7 @@ I had some more time after all to work on the CSS so I added a nice generic back
 
 ![alt text](/img/phpcontactfront.png)
 
-Here is what the final project looks like when all the errors are triggered:
+Here is what the screen looks like when all the errors are triggered:
 
 ![alt text](/img/fullerrorpage.png)
 
